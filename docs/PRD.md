@@ -402,7 +402,7 @@ GET /health
 
 - **个人开发者**运营，**无注册公司**
 - 站点表述：*Operated by an individual developer*
-- 联系邮箱：**hello@pdfamd.com**（Privacy 与 Terms 共用）
+- 联系邮箱：**shua6715@gmail.com**（Privacy 与 Terms 共用）
 
 ### 10.2 页面
 
@@ -483,7 +483,7 @@ pdf-to-md/
 - [ ] Vercel + Render 双端部署成功，CORS 与 HTTPS 正常
 - [ ] `/`、`/es`、`/privacy`、`/terms` 可访问
 - [ ] Title / Meta / H1 / FAQ 与 JSON-LD 一致
-- [ ] Privacy / Terms 含个人开发者声明与 hello@pdfamd.com
+- [ ] Privacy / Terms 含个人开发者声明与 shua6715@gmail.com
 - [ ] Footer 含 *Operated by an individual developer*
 - [ ] 限额与 PRD 一致：10MB / 50 页
 
@@ -532,7 +532,7 @@ pdf-to-md/
 | 2026-07-15 | 品牌主显 A：PDF a MD | 域名 pdfamd.com 一致 |
 | 2026-07-15 | 限额 10MB / 50 页 | 平衡体验与 Render 资源 |
 | 2026-07-15 | 个人开发者法律主体 | 无注册公司，Terms/Privacy 用 I/me |
-| 2026-07-15 | 联系邮箱 hello@pdfamd.com | 单邮箱简化运营 |
+| 2026-07-15 | 联系邮箱 shua6715@gmail.com | 单邮箱简化运营 |
 
 ---
 

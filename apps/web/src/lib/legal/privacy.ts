@@ -74,7 +74,7 @@ export const privacySections = [
   {
     title: "12. Data Protection Requests",
     paragraphs: [
-      "If you have a privacy-related question or request, email me at hello@pdfamd.com. I will respond within a reasonable time.",
+      "If you have a privacy-related question or request, email me at shua6715@gmail.com. I will respond within a reasonable time.",
     ],
   },
   {
@@ -86,7 +86,7 @@ export const privacySections = [
   {
     title: "14. Contact",
     paragraphs: [
-      "PDF a MD is operated by an individual developer. There is no registered company entity behind this service. Email: hello@pdfamd.com",
+      "PDF a MD is operated by an individual developer. There is no registered company entity behind this service. Email: shua6715@gmail.com",
     ],
   },
 ];

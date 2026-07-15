@@ -86,7 +86,7 @@ export const termsSections = [
   {
     title: "15. Disputes and Governing Law",
     paragraphs: [
-      "Any dispute should first be raised in good faith by contacting hello@pdfamd.com. If a dispute cannot be resolved informally, it shall be governed by the laws that apply where I am ordinarily resident at the time of the dispute, except where mandatory consumer protection laws in your country require otherwise.",
+      "Any dispute should first be raised in good faith by contacting shua6715@gmail.com. If a dispute cannot be resolved informally, it shall be governed by the laws that apply where I am ordinarily resident at the time of the dispute, except where mandatory consumer protection laws in your country require otherwise.",
     ],
   },
   {
@@ -98,7 +98,7 @@ export const termsSections = [
   {
     title: "17. Contact",
     paragraphs: [
-      "PDF a MD is operated by an individual developer. There is no registered company entity behind this service. Email: hello@pdfamd.com",
+      "PDF a MD is operated by an individual developer. There is no registered company entity behind this service. Email: shua6715@gmail.com",
     ],
   },
 ];

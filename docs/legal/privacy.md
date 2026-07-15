@@ -102,7 +102,7 @@ Because I do not operate user accounts and do not intentionally retain uploaded 
 
 Because I do not operate user accounts and do not intentionally retain uploaded PDF files, I generally do not hold personal data that can be linked to you beyond short-lived technical logs handled by hosting providers.
 
-If you have a privacy-related question or request, email me at **hello@pdfamd.com**. I will respond within a reasonable time.
+If you have a privacy-related question or request, email me at **shua6715@gmail.com**. I will respond within a reasonable time.
 
 ## 13. Changes to This Policy
 
@@ -112,6 +112,6 @@ I may update this Privacy Policy from time to time. The "Last updated" date at t
 
 Questions about this Privacy Policy:
 
-**Email:** hello@pdfamd.com
+**Email:** shua6715@gmail.com
 
 PDF a MD is operated by an individual developer. There is no registered company entity behind this service.

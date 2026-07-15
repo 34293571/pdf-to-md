@@ -56,8 +56,8 @@ export function LegalPageLayout({
 
           <p className="mt-10 text-sm text-muted">
             Questions? Email{" "}
-            <a href="mailto:hello@pdfamd.com" className="text-primary hover:underline">
-              hello@pdfamd.com
+            <a href="mailto:shua6715@gmail.com" className="text-primary hover:underline">
+              shua6715@gmail.com
             </a>
             . See also{" "}
             <Link href="/privacy" className="text-primary hover:underline">

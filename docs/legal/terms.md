@@ -119,7 +119,7 @@ My [Privacy Policy](/privacy) explains how I handle information. By using the Se
 
 ## 15. Disputes and Governing Law
 
-Because I operate PDF a MD as an individual without a registered business entity in a specific jurisdiction, any dispute arising from these Terms or the Service should first be raised in good faith by contacting **hello@pdfamd.com**.
+Because I operate PDF a MD as an individual without a registered business entity in a specific jurisdiction, any dispute arising from these Terms or the Service should first be raised in good faith by contacting **shua6715@gmail.com**.
 
 If a dispute cannot be resolved informally, it shall be governed by the laws that apply where I am ordinarily resident at the time of the dispute, without regard to conflict-of-law rules, except where mandatory consumer protection laws in your country require otherwise.
 
@@ -131,6 +131,6 @@ I may update these Terms from time to time. The "Last updated" date will reflect
 
 Questions about these Terms:
 
-**Email:** hello@pdfamd.com
+**Email:** shua6715@gmail.com
 
 PDF a MD is operated by an individual developer. There is no registered company entity behind this service.

@@ -67,12 +67,7 @@ If I enable analytics or error monitoring in the future, I will update this Priv
 
 ## 6. Cookies and Similar Technologies
 
-PDF a MD may use:
-
-- **Essential technologies** required for basic site functionality, if any
-- **Analytics technologies** (only if I enable analytics) to understand how visitors use pdfamd.com
-
-You can control cookies through your browser settings. Disabling some cookies may affect certain features.
+PDF a MD may use essential technologies required for basic site functionality. When enabled, Google Analytics (Google tag) is used to understand how visitors use the site. You can control cookies through your browser settings.
 
 ## 7. Data Security
 

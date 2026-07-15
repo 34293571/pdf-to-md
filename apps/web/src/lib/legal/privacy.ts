@@ -38,7 +38,7 @@ export const privacySections = [
   {
     title: "6. Cookies and Similar Technologies",
     paragraphs: [
-      "PDF a MD may use essential technologies required for basic site functionality, and analytics technologies only if I enable analytics. You can control cookies through your browser settings.",
+      "PDF a MD may use essential technologies required for basic site functionality. When enabled, Google Analytics (Google tag) is used to understand how visitors use the site. You can control cookies through your browser settings.",
     ],
   },
   {

@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import type { Dictionary } from "@/lib/i18n";
+import { SITE_URL } from "@/lib/constants";
 
 type FooterProps = {
   dict: Dictionary;
@@ -15,7 +16,7 @@ export function Footer({ dict }: FooterProps) {
         <div className="flex flex-col gap-3 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {year} PDF a MD ·{" "}
-            <a href="https://pdfamd.com" className="hover:text-primary">
+            <a href={SITE_URL} className="hover:text-primary">
               pdfamd.com
             </a>
           </p>

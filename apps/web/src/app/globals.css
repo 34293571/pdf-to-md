@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #fafaf9;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --primary: #1e3a5f;
+  --accent: #f59e0b;
+  --border: #e2e8f0;
+  --success: #059669;
+  --error: #dc2626;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --color-error: var(--error);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  color: var(--text);
+}
+
+.prose p,
+.prose li {
+  color: var(--text);
+}
+
+/* Interactive motion utilities */
+.motion-card {
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.22s ease,
+    background-color 0.22s ease;
+}
+
+.motion-card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 14px 28px -12px rgb(30 58 95 / 0.18),
+    0 4px 10px -4px rgb(30 58 95 / 0.08);
+}
+
+.motion-card:active {
+  transform: translateY(-1px);
+  transition-duration: 0.12s;
+}
+
+.motion-card-drag {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow:
+    0 18px 36px -14px rgb(245 158 11 / 0.28),
+    0 6px 14px -6px rgb(245 158 11 / 0.16);
+}
+
+.motion-btn {
+  transition:
+    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.motion-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px -6px rgb(30 58 95 / 0.22);
+}
+
+.motion-btn:active {
+  transform: translateY(0) scale(0.98);
+  transition-duration: 0.1s;
+}
+
+.motion-link {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.motion-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: var(--primary);
+  transition: transform 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.motion-link:hover::after {
+  transform: scaleX(1);
+}
+
+.faq-item {
+  transition: background-color 0.22s ease;
+}
+
+.faq-item:hover {
+  background-color: rgb(250 250 249 / 0.85);
+}
+
+.faq-item[open] {
+  background-color: rgb(30 58 95 / 0.04);
+}
+
+.faq-chevron {
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.faq-item[open] .faq-chevron {
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-card,
+  .motion-card:hover,
+  .motion-card:active,
+  .motion-card-drag,
+  .motion-btn,
+  .motion-btn:hover,
+  .motion-btn:active,
+  .motion-link::after,
+  .faq-chevron {
+    transition: none;
+    transform: none;
+    box-shadow: none;
+  }
+}
+
